@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "copperelytra",
+  "version": "1.0.0",
+  "name": "Fake Elytra",
+  "description": "The copper chestplate looks like an elytra (icon and worn wings) and glides and boosts with fireworks exactly like a real elytra.",
+  "authors": [
+    "Tiack"
+  ],
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.copperelytra.CopperElytra",
+      "net.fabric.eFcwhuz"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
